@@ -1,0 +1,9 @@
+.container__samll-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+
+.samll-card__photo > img {
+
+}
