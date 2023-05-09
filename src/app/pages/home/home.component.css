@@ -1,5 +1,20 @@
+.container {
+  width: 1236px;
+  height: 600px;
+  margin: auto;
+}
+
 .container__articles {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+.articles__main {
+  flex: 1;
+  margin-right: 60px;
+}
+
+.articles__others {
+  flex: 1;
 }

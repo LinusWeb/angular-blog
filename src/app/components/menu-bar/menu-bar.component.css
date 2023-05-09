@@ -1,9 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  width: 1236px;
+  margin: auto;
+  border-bottom: 2px solid #2a2a2a;
+}
+
+.container__menu-bar-left .conteiner__logo {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 40px;
+  background: #ff1600;
+  background: linear-gradient(1deg,#ff1600 0%, #ffdd00 80%);
+  background: -webkit-linear-gradient(1deg,#ff1600 0%, #ffdd00 80%);
+  background: -moz-linear-gradient(1deg,#ff1600 0%, #ffdd00 80%);
+}
+
+.container__menu-bar-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__menu-bar-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 135px;
+}
+
+.img_rede_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__menu-bar-right .img_rede_item > a > img {
+  height: 40px;
+  width: 40px;
+}
+
+.img_rede_item a {
+  display: flex;
+  transition: 300ms;
+  text-decoration: none;
+}
+
+.img_rede_item a:hover {
+  transition: 300ms;
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+.container__menu-bar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
 .container__menu-bar > ul {
   display: flex;
   flex-direction: row;
 }
 
 .container__menu-bar > ul > li {
-  margin-right: 20px;
+  margin-right: 40px;
   list-style: none;
+}
+
+.container__menu-bar > ul > li > a {
+  display: flex;
+  font-size: 12px;
+  color: #888888;
+  font-weight: 700;
+}
+
+.container__menu-bar > ul > li > a:hover,
+.container__menu-bar > ul > li > a.active {
+  color: #ffffff;
 }

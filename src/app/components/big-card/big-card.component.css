@@ -1,21 +1,30 @@
 .container__big-card {
-  border: solid #ffffff 2px;
-  margin-left: 10px;
-  padding-right: 10px;
-  width: 400px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
-.big-card__title > h1 {
+.container__big-card .big-card__photo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.big-card__date > h6 {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 12px;
+  color: #515151;
+}
+
+.big-card__title > h1 > a {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #d0d0d0;
 }
 
 .big-card__description > p {
   margin-top: 10px;
-  color: #cccccc  ;
+  color: #898989;
+  text-align: justify;
+  line-height: 1.5;
 }

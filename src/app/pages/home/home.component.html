@@ -1,14 +1,46 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
 
 <app-menu-title></app-menu-title>
 
-<div class="container__articles">
-  <div class="articles__main">
-    <app-big-card></app-big-card>
-  </div>
-  <div class="articles__others">
-    <app-small-card></app-small-card>
+<div class="container">
+  <div class="container__articles">
+
+    <div class="articles__main">
+
+      <app-big-card
+        id="1"
+        photoCover="assets/img/thumb_article40.jpg"
+        cardDate="Maio 09, 2023"
+        cardTitle="O que é o Lorem Ipsum?"
+        cardDescription="O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.">
+      </app-big-card>
+
+    </div>
+
+    <div class="articles__others">
+
+      <app-small-card
+        id="2"
+        photoCover="assets/img/thumb_article_01.jpg"
+        cardDate="Maio 09, 2023"
+        cardTitle="A passagem do Lorem Ipsum usada desde 1500">
+      </app-small-card>
+
+      <app-small-card
+        id="3"
+        photoCover="assets/img/thumb_article_02.jpg"
+        cardDate="Maio 09, 2023"
+        cardTitle="The standard Lorem Ipsum passage, used since the 1500s">
+      </app-small-card>
+
+      <app-small-card
+        id="4"
+        photoCover="assets/img/thumb_article_03.jpg"
+        cardDate="Maio 09, 2023"
+        cardTitle="A passagem do Lorem Ipsum usada desde 1500">
+      </app-small-card>
+
+    </div>
+
   </div>
 </div>
+

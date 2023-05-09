@@ -1,8 +1,20 @@
-<div class="container__samll-card">
-  <div class="samll-card__photo">
-    <img src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png" height="200px" alt="">
+<div class="container">
+
+  <div class="container__samll-card">
+
+    <div class="samll-card__photo">
+      <img src="{{ photoCover }}" height="200px" alt="">
+    </div>
+
+    <div class="small-card__details">
+      <div class="samll-card__date">
+        <h6>{{ cardDate }}</h6>
+      </div>
+      <div class="samll-card__title">
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
+      </div>
+    </div>
+
   </div>
-  <div class="samll-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular</a></h1>
-  </div>
+
 </div>

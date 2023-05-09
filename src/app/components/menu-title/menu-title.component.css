@@ -1,18 +1,24 @@
-.container__menu-title {
-  color: #ffffff;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1236px;
+  margin: auto;
+  border-bottom: 2px solid #2a2a2a;
 }
 
 .container__menu-title > h1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-family: 'segoe UI';
-  font-size: 135px;
+  font-family: 'verdana';
+  font-size: 245px;
+  letter-spacing: -20px;
+  color: #ffffff;
+  background: #FFCC00;
+  background: linear-gradient(1deg,#ff1600 20%, #ffdd00 80%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .container__menu-title > hr {
-  margin-top: 20px;
-  margin-bottom: 5px;
+  border-color: #2a2a2a;
 }
-
